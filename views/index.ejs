@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <div class="top"></div>
+  <h1><%= title %></h1>
+  <p>Welcome to <%= title %></p>
+
+  <h2>DataBase List on CouchDB running on localhost</h2>
+  <p><%= dblist %></p>
+
+  <h2>Create New DataBase on couchdb localhost</h2>
+  <form action="/createNewDatabase" method="post">
+
+  <label>DB Name<input type="text" name="dbname"></label>
+  <button type="submit">Submint</button>
+
+  </form>
+  </body>
+</html>

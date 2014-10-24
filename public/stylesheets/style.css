@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  padding-top: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+	color: #3fa144;
+	margin-top: 50px;
+}
+
+h2{
+	color: #3fa1a0;
+}
+
+p, label{
+	padding-left: 10px;
+}
+
+.top{
+	width: 100%;
+	height: 20px;
+	background-color: #9f6490;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
