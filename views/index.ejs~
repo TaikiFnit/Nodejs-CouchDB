@@ -21,10 +21,17 @@
   </form>
 
   <h2>Delete DataBase on couchdb localhost</h2>
-  <form action="deleteDatabase" method="post">
+  <form action="/deleteDatabase" method="post">
 	  <label>DB Name<input type="text" name="dbname"></label>
 	  <button type="submit">Submit</button>
   </form>
+
+  <h2>Add Document in DataBase</h2>
+  <form action="/addDocument" method="post">
+	  <label>DB Name<input type="text" name="dbname"></label>
+	  <button type="submit">Submit</button>
+  </form>
+
 
   </body>
 </html>
